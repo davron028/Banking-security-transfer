@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Security</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="id">ID</string>
+    <string name="password">Password</string>
+    <string name="login">Log in</string>
+    <string name="signup">Sign up</string>
+    <string name="logout">Logout</string>
+    <string name="deposit">Deposit</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="transfer">Transfer</string>
+    <string name="balance">Balance</string>
+    <string name="amount">300,000</string>
+    <string name="currency">Won</string>
+    <string name="delete">Delete</string>
+    <string name="change_pwd">Change Password</string>
+    <string name="new_pwd">New Password</string>
+    <string name="balance_name">Balance: </string>
+    <string name="transaction">Transaction history </string>
+    <string name="trans_amount">Transaction amount</string>
+    <string name="customers_list">Customer list</string>
+</resources>

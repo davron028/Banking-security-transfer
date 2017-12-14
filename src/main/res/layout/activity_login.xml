@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colorGrey"
+    android:orientation="vertical"
+    tools:context="com.example.asusstrix.security.loginActivity">
+
+    <ImageView
+        android:layout_width="291dp"
+        android:layout_height="123dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/logo" />
+    <EditText
+        android:id="@+id/user_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableStart="@drawable/id"
+        android:padding="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/et_bg"
+        android:hint="@string/id"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:drawableStart="@drawable/pwd"
+        android:inputType="textPassword"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/et_bg"
+        android:hint="@string/password"/>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp">
+
+        <Button
+            android:id="@+id/signup_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginEnd="3dp"
+            android:background="@drawable/button"
+            android:textColor="@android:color/white"
+            android:text="@string/signup"/>
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/button"
+            android:textColor="@android:color/white"
+            android:layout_columnWeight="1"
+            android:text="@string/login"/>
+    </GridLayout>
+</LinearLayout>
